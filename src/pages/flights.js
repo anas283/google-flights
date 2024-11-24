@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 const Flights = () => {
   return (
-    <div>
+    <div className="mt-16">
       <img className="mx-4" src={FlightsHeaderImage} alt="flight-image" />
     
       <div className="w-full max-w-2xl md:max-w-5xl mx-auto -mt-[85px] px-4">

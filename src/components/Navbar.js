@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Navbar = () => {
   return (
-    <nav className="h-16 border-b px-4 flex justify-between items-center">
+    <nav className="h-16 border-b px-4 flex justify-between items-center bg-white fixed left-0 right-0 top-0 z-50">
       <div className="flex flex-row items-center gap-2">
         <button className="w-10 h-10 flex justify-center items-center rounded-full hover:bg-gray-100">
           <svg className="fill-[#5f6368] w-6 h-6" focusable="false" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
