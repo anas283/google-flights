@@ -23,7 +23,8 @@ const Footer = () => {
         </div>
         <p className="font-roboto text-sm text-[#70757a] text-center mx-auto max-w-xl">
           Current language and currency options applied: English (United States) - Malaysia - MYR
-          Displayed currencies may differ from the currencies used to purchase flights. Learn more
+          Displayed currencies may differ from the currencies used to purchase flights.
+          <a href="" className="text-[#1A73E8] ml-1">Learn more</a>
         </p>
         <div className="flex justify-center gap-4 mt-2">
           <a href="" className="font-roboto text-sm text-[#1A73E8] hover:underline">
