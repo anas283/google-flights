@@ -3,8 +3,8 @@ import Button from "./Button";
 const Footer = () => {
   return (
     <div>
-      <div className="border-t border-b p-6 flex flex-col gap-7">
-        <div className="w-full flex justify-center gap-2">
+      <div className="border-t border-b p-4 md:p-6 flex flex-col gap-7">
+        <div className="w-full flex flex-wrap justify-center gap-2">
           <Button
             variant="outline"
             title={"Language · English (United States)"}
@@ -26,7 +26,7 @@ const Footer = () => {
           Displayed currencies may differ from the currencies used to purchase flights.
           <a href="" className="text-[#1A73E8] ml-1">Learn more</a>
         </p>
-        <div className="flex justify-center gap-4 mt-2">
+        <div className="flex flex-wrap justify-center gap-4 mt-2">
           <a href="" className="font-roboto text-sm text-[#1A73E8] hover:underline">
             About
           </a>
@@ -48,21 +48,21 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex justify-center gap-12 mt-10">
-        <button className="flex justify-between items-center gap-3">
+      <div className="flex flex-col md:flex-row md:justify-center gap-5 md:gap-12 mt-5 md:mt-10">
+        <button className="w-fit flex justify-between items-center gap-3">
           <span className="font-roboto font-medium text-sm text-[#1a73e8]">
             International sites
           </span>
           <span className="w-8 h-8 flex justify-center items-center rounded-full hover:bg-gray-100">
-            <svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="fill-[#1a73e8]"><path d="M12 16.41l-6.71-6.7 1.42-1.42 5.29 5.3 5.29-5.3 1.42 1.42z"></path></svg>
+            <svg width="24" height="24" viewBox="0 0 24 24" focusable="false" className="fill-[#1a73e8]"><path d="M12 16.41l-6.71-6.7 1.42-1.42 5.29 5.3 5.29-5.3 1.42 1.42z"></path></svg>
           </span>
         </button>
-        <button className="flex justify-between items-center gap-3">
+        <button className="w-fit flex justify-between items-center gap-3">
           <span className="font-roboto font-medium text-sm text-[#1a73e8]">
           Explore flights
           </span>
           <span className="w-8 h-8 flex justify-center items-center rounded-full hover:bg-gray-100">
-            <svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="fill-[#1a73e8]"><path d="M12 16.41l-6.71-6.7 1.42-1.42 5.29 5.3 5.29-5.3 1.42 1.42z"></path></svg>
+            <svg width="24" height="24" viewBox="0 0 24 24" focusable="false" className="fill-[#1a73e8]"><path d="M12 16.41l-6.71-6.7 1.42-1.42 5.29 5.3 5.29-5.3 1.42 1.42z"></path></svg>
           </span>
         </button>
       </div>

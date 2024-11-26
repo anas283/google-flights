@@ -12,6 +12,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: 'Product Sans';
   src: url('./fonts/ProductSans-Regular.woff') format('woff');
